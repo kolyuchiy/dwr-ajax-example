@@ -1,0 +1,36 @@
+http://localhost:8080/dwr/dwr/exec/Calculator.Square
+
+POST /dwr/dwr/exec/Calculator.Square HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Content-Type: text/xml
+Content-Length: 119
+Cookie: JSESSIONID=E0ACB6407919818A27C1EBA4DD0A6753
+Pragma: no-cache
+Cache-Control: no-cache
+
+callCount=1
+c0-scriptName=Calculator
+c0-methodName=Square
+c0-id=7260_1132038473906
+c0-param0=string:3.1415926
+xml=true
+
+
+HTTP/1.x 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=ISO-8859-1
+Transfer-Encoding: chunked
+Date: Tue, 15 Nov 2005 07:07:53 GMT
+
+<script type='text/javascript'>
+var s0=9.869603;
+window.parent.DWREngine._handleResponse('520_1132038593390', s0);
+</script>
+
